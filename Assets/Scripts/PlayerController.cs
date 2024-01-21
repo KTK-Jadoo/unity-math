@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(velocity * Time.deltaTime);
 
+
+
         ray = gameCamera.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit hitInfo;
